@@ -4,7 +4,8 @@
   "description": "Proyecto de página de viajes para practicar NodeJS y Sequielize",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server"
+    "dev": "nodemon server",
+    "start": "node server"
   },
   "author": "Franco Ezequiel Marchegiani",
   "license": "ISC",
@@ -15,5 +16,8 @@
     "nodemon": "^2.0.4",
     "pug": "^3.0.0",
     "sequelize": "^6.3.3"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
   }
 }

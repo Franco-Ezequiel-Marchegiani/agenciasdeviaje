@@ -10,7 +10,8 @@ html(lang="en")
           link(rel="stylesheet", href="/css/style.css")
 
           title #{titulo} | #{pagina}
-     body
+     body(class=clase)
         include includes/header
+        block slider
         block contenido
         include includes/footer
